@@ -13,7 +13,7 @@ const Navbar = ({ toggle }) => {
           <Link to="/" className="nav-logo">
             <img src={logo} alt="mdx-logo" />
           </Link>
-          <button className="toggle-btn">
+          <button onClick={toggle} className="toggle-btn">
             <FaBars />
           </button>
         </div>
